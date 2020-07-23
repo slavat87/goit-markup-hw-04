@@ -237,6 +237,37 @@ a {
   margin-right: 0;
 }
 
+.features-list .item::before {
+  /*розтягує фон на всю ширирину батьків*/
+  display: block;
+  content: "";
+  height: 120px;
+
+  background-size: contain;
+  /*забирає повторення картинки*/
+  background-repeat: no-repeat;
+  /*вирівнює картинку по центру*/
+  background-position: center;
+  background-color: var(--second-bg-color);
+  border-radius: 4px;
+}
+
+.features-list .item:nth-child(1)::before {
+  background-image: url(../images_studio/antenna1.svg);
+}
+
+.features-list .item:nth-child(2)::before {
+  background-image: url(../images_studio/clock1.svg);
+}
+
+.features-list .item:nth-child(3)::before {
+  background-image: url(../images_studio/diagram1.svg);
+}
+
+.features-list .item:nth-child(4)::before {
+  background-image: url(../images_studio/astronaut1.svg);
+}
+
 .features p {
   margin-top: 0;
   margin-bottom: 0;
