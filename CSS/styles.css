@@ -185,8 +185,15 @@ a {
 
 /* Банер */
 .banner {
-  background-color: rgba(47, 48, 58, 0.8);
+  max-width: 1600px;
+  height: 600px;
+  background-image: /*linear-gradient(to right, rgba(47, 48, 58, 0.8)),*/ url(../images_studio/Header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -382,8 +389,13 @@ a {
   background-color: var(--accent-color);
 }
 
-/*.clients a {
-}*/
+.clients-list a {
+  padding-left: auto;
+  padding-top: auto;
+  padding-right: auto;
+  padding-bottom: auto;
+  /*justify-content: space-between;*/
+}
 
 .clients h2 {
   margin-top: 0;
