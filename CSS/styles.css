@@ -242,8 +242,8 @@ a {
   display: block;
   content: "";
   height: 120px;
-
-  background-size: contain;
+  /*задає розмір картинки*/
+  background-size: 70px;
   /*забирає повторення картинки*/
   background-repeat: no-repeat;
   /*вирівнює картинку по центру*/
