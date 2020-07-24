@@ -550,7 +550,23 @@ strong {
   border-radius: 50%;
 }
 
-.social-link:nth-child(1) a::after {
+.link-instagram::after {
+  background-image: url(../images_studio/instagram1.svg);
+}
+
+.link-twitter::after {
+  background-image: url(../images_studio/twitter1.svg);
+}
+
+.link-facebook::after {
+  background-image: url(../images_studio/facebook1.svg);
+}
+
+.link-linkedin::after {
+  background-image: url(../images_studio/linkedin1.svg);
+}
+
+/*.social-link:nth-child(1) a::after {
   background-image: url(../images_studio/instagram1.svg);
 }
 
@@ -564,7 +580,7 @@ strong {
 
 .social-link:nth-child(4) a::after {
   background-image: url(../images_studio/linkedin1.svg);
-}
+}*/
 
 .footer .subscription {
   margin-top: 12px;
