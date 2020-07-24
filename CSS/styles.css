@@ -187,7 +187,8 @@ a {
 .banner {
   max-width: 1600px;
   height: 600px;
-  background-image: /*linear-gradient(to right, rgba(47, 48, 58, 0.8)),*/ url(../images_studio/Header.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8)),
+    url(../images_studio/Header.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -548,6 +549,10 @@ strong {
   background-position: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+
+.social-link:last-child a::after {
+  margin-right: 0;
 }
 
 .link-instagram::after {
