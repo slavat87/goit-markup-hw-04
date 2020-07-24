@@ -532,10 +532,10 @@ strong {
   display: flex;
 }
 
-.footer-uppercase .social::after {
+.social a::after {
   /*розтягує фон на всю ширирину батьків*/
   display: block;
-  /*outline: 2px solid tomato;*/
+  outline: 2px solid tomato;
   content: "";
   width: 44px;
   height: 44px;
@@ -554,19 +554,21 @@ strong {
   margin-right: 0;
 }
 
-.social .social-instagram {
+.footer-uppercase .social .social-instagram::before {
+  content: "";
   background-image: url(../images_studio/instagram1.svg);
 }
 
-.social .social-twitter {
+.footer-uppercase .social .social-twitter::before {
+  content: "";
   background-image: url(../images_studio/twitter1.svg);
 }
 
-.social .social-facebook {
+.features-list .item:nth-child(3)::before {
   background-image: url(../images_studio/facebook1.svg);
 }
 
-.social .social-linkedin {
+.features-list .item:nth-child(4)::before {
   background-image: url(../images_studio/linkedin1.svg);
 }
 
