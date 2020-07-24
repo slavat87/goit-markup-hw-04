@@ -554,11 +554,11 @@ strong {
   margin-right: 0;
 }
 
-.social :nth-child(1)::after {
+.social-link:nth-child(1)::after {
   background-image: url(../images_studio/instagram1.svg);
 }
 
-.social :nth-child(2)::after {
+.social-link:nth-child(2)::after {
   background-image: url(../images_studio/twitter1.svg);
 }
 
