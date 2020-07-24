@@ -532,7 +532,7 @@ strong {
   display: flex;
 }
 
-.social a::after {
+.social .social-link::after {
   /*розтягує фон на всю ширирину батьків*/
   display: block;
   /*outline: 2px solid tomato;*/
@@ -550,15 +550,15 @@ strong {
   border-radius: 50%;
 }
 
-.social-link:nth-child(4n) {
+.social .social-link:nth-child(4n) {
   margin-right: 0;
 }
 
-.social-link:nth-child(1)::after {
+.social :nth-child(1)::after {
   background-image: url(../images_studio/instagram1.svg);
 }
 
-.social-link:nth-child(2)::after {
+.social :nth-child(2)::after {
   background-image: url(../images_studio/twitter1.svg);
 }
 
