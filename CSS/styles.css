@@ -532,9 +532,9 @@ strong {
   display: flex;
 }
 
-.social-link::after {
+.social-link a::after {
   /*розтягує фон на всю ширирину батьків*/
-  display: block;
+  display: inline-block;
   /*outline: 2px solid tomato;*/
   content: "";
   width: 44px;
