@@ -527,12 +527,47 @@ strong {
   line-height: 1.1;
 }
 
-.footer-uppercase ul {
+.footer-uppercase .social {
   margin-bottom: 20px;
+  display: flex;
 }
 
-.footer-uppercase .social {
-  display: flex;
+.social a::after {
+  /*розтягує фон на всю ширирину батьків*/
+  display: block;
+  /*outline: 2px solid tomato;*/
+  content: "";
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  /*задає розмір картинки*/
+  background-size: 20px;
+  /*забирає повторення картинки*/
+  background-repeat: no-repeat;
+  /*вирівнює картинку по центру*/
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.social-link:nth-child(4n) {
+  margin-right: 0;
+}
+
+.social-link:nth-child(1)::after {
+  background-image: url(../images_studio/instagram1.svg);
+}
+
+.social-link:nth-child(2)::after {
+  background-image: url(../images_studio/twitter1.svg);
+}
+
+.social-link:nth-child(3)::after {
+  background-image: url(../images_studio/facebook1.svg);
+}
+
+.social-link:nth-child(4)::after {
+  background-image: url(../images_studio/linkedin1.svg);
 }
 
 .footer .subscription {
