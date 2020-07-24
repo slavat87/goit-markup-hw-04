@@ -555,6 +555,11 @@ strong {
   border-radius: 50%;
 }
 
+.social-link a:hover:after,
+.social-link a:focus:after {
+  color: var(--accent-color);
+}
+
 .social-link:last-child a::after {
   margin-right: 0;
 }
