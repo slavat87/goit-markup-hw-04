@@ -527,12 +527,12 @@ strong {
   line-height: 1.1;
 }
 
-.footer-uppercase .social {
+.footer-uppercase ul {
   margin-bottom: 20px;
   display: flex;
 }
 
-.social .social-link::after {
+.footer-uppercase .social::after {
   /*розтягує фон на всю ширирину батьків*/
   display: block;
   /*outline: 2px solid tomato;*/
@@ -550,23 +550,23 @@ strong {
   border-radius: 50%;
 }
 
-.social .social-link:nth-child(4n) {
+.footer-uppercase .social:nth-child(4n) {
   margin-right: 0;
 }
 
-.social-link:nth-child(1)::after {
+.footer-uppercase .social:nth-child(1)::after {
   background-image: url(../images_studio/instagram1.svg);
 }
 
-.social-link:nth-child(2)::after {
+.footer-uppercase .social:nth-child(2)::after {
   background-image: url(../images_studio/twitter1.svg);
 }
 
-.social-link:nth-child(3)::after {
+.:nth-child(3)::after {
   background-image: url(../images_studio/facebook1.svg);
 }
 
-.social-link:nth-child(4)::after {
+.:nth-child(4)::after {
   background-image: url(../images_studio/linkedin1.svg);
 }
 
