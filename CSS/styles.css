@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 }
 
-/* Логотип */
+/*-Логотип-*/
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -81,7 +81,7 @@ a {
   line-height: 1.2;
 }
 
-/* Частина лого web header */
+/*Частина лого web header */
 .logo-web {
   color: #2196f3;
 }
@@ -91,17 +91,12 @@ a {
   color: #212121;
 }
 
-/*section {
-  outline: 2px solid tomato;
-}*/
-
 /* Логотип-колір Studio footer */
 .footer .logo-studio {
   color: #ffffff;
 }
 
-/*Розмітка шапки */
-
+/*-Розмітка шапки-*/
 .nav-wrapper {
   display: flex;
   align-items: center;
@@ -183,7 +178,7 @@ a {
   margin-left: 10px;
 }
 
-/* Банер */
+/*-Банер-*/
 .banner {
   max-width: 1600px;
   height: 600px;
