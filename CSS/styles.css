@@ -544,34 +544,55 @@ strong {
   display: flex;
 }
 
-.social-link a::after {
-  /*розтягує фон на всю ширирину батьків*/
+.social-link a {
+  /*вирівнює картинку по центру*/
   display: inline-block;
-  /*outline: 2px solid tomato;*/
-  content: "";
   width: 44px;
   height: 44px;
   margin-right: 10px;
-  /*задає розмір картинки*/
-  background-size: 20px;
-  /*забирає повторення картинки*/
-  background-repeat: no-repeat;
-  /*вирівнює картинку по центру*/
   background-position: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
-.social-link a:hover:after,
-.social-link a:focus:after {
-  color: var(--accent-color);
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
 }
 
-.social-link:last-child a::after {
+.social-link a:hover {
+  background-color: var(--accent-color);
+}
+
+/*.social-link a::after {*/
+/*розтягує фон на всю ширирину батьків*/
+/*display: inline-block;
+  /*outline: 2px solid tomato;*/
+/*content: "";
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  /*задає розмір картинки
+background-size: 20px;*/
+/*забирає повторення картинки
+background-repeat: no-repeat;*/
+/*вирівнює картинку по центру
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}*/
+
+/*.social-link a:hover:after,
+.social-link a:focus:after {
+  color: var(--accent-color);
+}*/
+
+.social-link:last-child a {
   margin-right: 0;
 }
 
-.link-instagram::after {
+/*.link-instagram::after {
   background-image: url(../images_studio/instagram1.svg);
 }
 
@@ -585,7 +606,7 @@ strong {
 
 .link-linkedin::after {
   background-image: url(../images_studio/linkedin1.svg);
-}
+}*/
 
 /*.social-link:nth-child(1) a::after {
   background-image: url(../images_studio/instagram1.svg);
@@ -641,7 +662,14 @@ strong {
   padding: 13px 28px;
 }
 
-.subscription .button::after {
+.icon-send {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: #ffffff;
+}
+
+/*.subscription .button::after {
   content: "";
 
   width: 24px;
@@ -649,7 +677,7 @@ strong {
   background-image: url(../images_studio/icon-send.svg);
   background-size: contain;
   margin-left: 10px;
-}
+}*/
 
 /*-- Сторінка PORTFOLIO --*/
 
