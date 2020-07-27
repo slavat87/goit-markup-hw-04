@@ -440,60 +440,50 @@ a {
   align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;
+  color: #afb1b8;
   border-radius: 4px;
   margin-right: 0;
 }
 
-/*.clients-list a:hover {
+.clients-list a:hover {
+  color: var(--accent-color);
   border-color: var(--accent-color);
-}*/
+}
 
 .logo1 {
   width: 44.27px;
   height: 49.23px;
-  fill: #afb1b8;
-  /*fill: currentColor;*/
+  fill: currentColor;
 }
 
 .logo2 {
   width: 40px;
   height: 52px;
-  fill: #afb1b8;
-  /*fill: currentColor;*/
+  fill: currentColor;
 }
 
 .logo3 {
   width: 41px;
   height: 42.6px;
-  fill: #afb1b8;
-  /*fill: currentColor;*/
+  fill: currentColor;
 }
 
 .logo4 {
   width: 79.66px;
   height: 42.02px;
-  fill: #afb1b8;
-  /*fill: currentColor;*/
+  fill: currentColor;
 }
 
 .logo5 {
   width: 59px;
   height: 47px;
-  fill: #afb1b8;
-  /*fill: currentColor;*/
+  fill: currentColor;
 }
 
 .logo6 {
   width: 88.48px;
   height: 45.44px;
-  fill: #afb1b8;
-  /*fill: currentColor;*/
-}
-
-.item a:hover {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-  background-color: #ffffff;
+  fill: currentColor;
 }
 
 .clients h2 {
