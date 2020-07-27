@@ -546,7 +546,7 @@ strong {
 
 .social-link a {
   /*вирівнює картинку по центру*/
-  display: inline-block;
+  display: flex;
   width: 44px;
   height: 44px;
   margin-right: 10px;
