@@ -423,30 +423,49 @@ a {
   /*outline: 2px solid tomato;*/
 }
 
-.clients-list .item {
-  /*background-color: navy;*/
-  width: 170px;
-
+/*.clients-list .item {*/
+/*background-color: navy;*/
+/*width: 170px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
+}*/
 
 .clients-list .item:nth-child(6n) {
   margin-right: 0;
 }
 
-.clients a:hover,
-.clients a:focus {
+.clients-list a {
+  /*вирівнює картинку по центру*/
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-position: center;
+}
+
+.clients-list a:hover {
   background-color: var(--accent-color);
 }
 
-.clients-list a {
+.clients-logo {
+  width: 44.27px
+  height: 49.23px
+  fill: #AFB1B8;
+}
+
+/*.clients a:hover,
+.clients a:focus {
+  background-color: var(--accent-color);
+}*/
+
+/*.clients-list a {
   padding-left: auto;
   padding-top: auto;
   padding-right: auto;
   padding-bottom: auto;
-  /*justify-content: space-between;*/
-}
+}*/
 
 .clients h2 {
   margin-top: 0;
@@ -549,6 +568,8 @@ strong {
   display: flex;
   width: 44px;
   height: 44px;
+  align-items: center;
+    justify-content: center;
   margin-right: 10px;
   background-position: center;
   background-color: rgba(255, 255, 255, 0.1);
