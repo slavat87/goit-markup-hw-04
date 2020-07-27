@@ -177,21 +177,13 @@ a {
 .icon-envelope {
   width: 16px;
   height: 11.2px;
-  fill: var(--third-text-color);
-}
-
-.icon-envelope:hover {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .icon-vector {
   width: 10px;
   height: 14.94px;
-  fill: var(--third-text-color);
-}
-
-.icon-vector:hover {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .contact span {
