@@ -792,11 +792,16 @@ background-repeat: no-repeat;*/
 .portfolio .item {
   width: 370px;
   padding: 0;
-  margin: 0;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio .item:nth-child(3n) {
   margin-right: 0;
+}
+
+.portfolio .item:nth-child() {
+  margin-bottom: 0;
 }
 
 .portfolio .portfolio-description {
