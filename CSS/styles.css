@@ -248,34 +248,16 @@ a {
   margin-right: 0;
 }
 
-/*.features-list .item {
+.features-list .item {
   /*розтягує фон на всю ширирину батьків*/
-  /*display: block;
+  display: flex;
   width: 270px;
   height: 120px;
-}*/
-
   /*вирівнює картинку по центру*/
-  /*background-position: center;
+  background-position: center;
   background-color: var(--second-bg-color);
   border-radius: 4px;*/
 }
-
-/*.features-list .item:nth-child(1)::before {
-  background-image: url(../images_studio/antenna1.svg);
-}
-
-.features-list .item:nth-child(2)::before {
-  background-image: url(../images_studio/clock1.svg);
-}
-
-.features-list .item:nth-child(3)::before {
-  background-image: url(../images_studio/diagram1.svg);
-}
-
-.features-list .item:nth-child(4)::before {
-  background-image: url(../images_studio/astronaut1.svg);
-}*/
 
 .features p {
   margin-top: 0;
@@ -297,27 +279,11 @@ a {
   text-transform: uppercase;
 }
 
-.clients-list a {
-  /*вирівнює картинку по центру*/
-  display: flex;
-  width: 170px;
-  height: 90px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #afb1b8;
-  color: #afb1b8;
-  border-radius: 4px;
-  margin-right: 0;
-}
-
 .features-icon {
     width: 70px;
   height: 70px;
   fill: currentColor;
-  background-position: center;
-  background-color: var(--second-bg-color);
-  border-radius: 4px;
-}
+ }
 
 /* Чим ми займаємося */
 .perform {
