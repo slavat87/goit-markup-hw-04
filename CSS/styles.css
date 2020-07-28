@@ -244,25 +244,32 @@ a {
   justify-content: space-between;
 }
 
+.features-list .item {
+  width: 270px;
+}
+
 .features-list .item:nth-child(4n) {
   margin-right: 0;
 }
 
-.features-list .item {
+.features-list .item::before {
   /*розтягує фон на всю ширирину батьків*/
-  display: flex;
-  width: 270px;
+  display: block;
+  content: "";
   height: 120px;
+  /*задає розмір картинки*/
+  background-size: 70px;
+  /*забирає повторення картинки*/
+  background-repeat: no-repeat;
   /*вирівнює картинку по центру*/
   background-position: center;
   background-color: var(--second-bg-color);
-  border-radius: 4px;*/
+  border-radius: 4px;
 }
 
 .features p {
   margin-top: 0;
   margin-bottom: 0;
-
   color: var(--third-text-color);
   font-weight: normal;
   font-size: 14px;
@@ -272,18 +279,11 @@ a {
 .features h3 {
   margin-top: 30px;
   margin-bottom: 10px;
-
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
 }
-
-.features-icon {
-    width: 70px;
-  height: 70px;
-  fill: currentColor;
- }
 
 /* Чим ми займаємося */
 .perform {
