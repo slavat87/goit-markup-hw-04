@@ -252,22 +252,18 @@ a {
   margin-right: 0;
 }
 
-.features-list .item::before {
-  /*розтягує фон на всю ширирину батьків*/
-  display: block;
-  content: "";
+.features-icon {
+  display: flex;
   height: 120px;
-  /*задає розмір картинки*/
-  background-size: 70px;
-  /*забирає повторення картинки*/
-  background-repeat: no-repeat;
   /*вирівнює картинку по центру*/
   background-position: center;
+  align-items: center;
+  justify-content: center;
   background-color: var(--second-bg-color);
   border-radius: 4px;
 }
 
-.features-icon {
+.features-icon .icon {
   width: 70px;
   height: 70px;
 }
