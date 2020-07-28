@@ -267,6 +267,11 @@ a {
   border-radius: 4px;
 }
 
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features p {
   margin-top: 0;
   margin-bottom: 0;
